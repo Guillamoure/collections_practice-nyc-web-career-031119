@@ -10,6 +10,6 @@ end
 
 def sort_array_char_count(array)
   array.sort.reverse do |value|
-    value.length.reverse
+    value.length
   end
 end
